@@ -18,6 +18,11 @@ h1 {
   color: pink;
 }
 
+.number {
+  background: salmon;
+  padding: 2em;
+}
+
 .bold {
   font-weight: bold;
 }
