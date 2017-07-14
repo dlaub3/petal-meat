@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "watch": "webpack",
-    "start": "node server.js"
+    "start": "node server.js & webpack"
   },
   "dependencies": {
     "html-webpack-plugin": "^2.29.0",

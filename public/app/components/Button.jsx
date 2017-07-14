@@ -1,6 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const styles = {
+  background: 'salmon',
+  padding: '1.2em 1em',
+  textAlign: 'center',
+  fontSize: '1.4em',
+}
+
 class Button extends React.Component {
   constructor() {
     super();
@@ -12,9 +19,9 @@ class Button extends React.Component {
   render() {
     
     return (
-        <span className={this.props.className}>
+        <div className={this.props.className} style={styles}>
         {this.props.number}
-       </span>
+       </div>
       
     )
     
